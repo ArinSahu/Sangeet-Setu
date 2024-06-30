@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&family=Playwrite+US+Trad:wght@100..400&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
 body {
-    background-color: grey;
+    background-color: black;
 }
 
 * {
@@ -21,6 +21,7 @@ nav ul {
     height:85px;
     background-color: black;
     color: white;
+    
 }
 
 nav ul li{
@@ -38,7 +39,15 @@ nav ul li{
 }
 
 .container{
-    min-height: 70vh;
+    min-height: 65vh;
+    background-color: black;
+    color: white;
+    font-family:"Playwrite DE GRUND" ;
+    display: flex;
+    margin:  auto;
+    width: 95%;
+    background-image: url("MusicBG.jpg");
+    background-size: contain;
 }
 
 #myProgressBar{
@@ -52,7 +61,7 @@ nav ul li{
     position: sticky;
     height: 150px;
     background-color: black;
-    color: antiquewhite;
+    color: white;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -63,3 +72,37 @@ nav ul li{
     margin:10px;
     cursor: pointer;
 }
+.songItem{
+    background-color: rgb(53, 51, 48);
+    height: 60px;
+    width: 500px;
+    display: flex;
+    margin: 10px 0;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.songItem img{
+    width: 60px;
+    height: 50px;
+    margin: 10px 20px;
+    border-radius: 20%;
+}
+
+.timestamp{
+    margin: 0 10px;
+    
+}
+.songListPlay i{
+    cursor: pointer;
+}
+.songInfo{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 10vw;
+    opacity: 0;
+    transition: opacity 0.8s ease-in;
+}
+   
