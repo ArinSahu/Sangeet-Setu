@@ -1,4 +1,5 @@
 // console.log("Chala");
+fetch('https://cors-anywhere.herokuapp.com/https://api.example.com')
 
 let songIndex=1;
 let audioElement = new  Audio("songs/music1.mp3");
