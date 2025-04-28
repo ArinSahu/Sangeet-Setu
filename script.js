@@ -9,11 +9,11 @@ let masterSongName=document.getElementById('masterSongName');
 let songItems=Array.from(document.getElementsByClassName('songItem'));
 
 let songs=[
-    {songName:"Sajni Re" , filepath:"Music1.mp3" , coverpath:"covers/cover1.jpeg"},
-    {songName:"Apna bana le piya" , filepath:"Music2.mp3" , coverpath:"covers/cover2.jpeg"},
-    {songName:"Pehle bhi mai" , filepath:"Music3.mp3" , coverpath:"covers/cover3.jpeg"},
-    {songName:"Sanam teri kasam" , filepath:"Music4.mp3" , coverpath:"covers/cover4.jpeg"},
-    {songName:"Tera hone laga hoon" , filepath:"Music5.mp3" , coverpath:"covers/cover5.jpeg"}
+    {songName:"Sajni Re" , filepath:"songs/Music1.mp3" , coverpath:"covers/cover1.jpeg"},
+    {songName:"Apna bana le piya" , filepath:"songs/Music2.mp3" , coverpath:"covers/cover2.jpeg"},
+    {songName:"Pehle bhi mai" , filepath:"songs/Music3.mp3" , coverpath:"covers/cover3.jpeg"},
+    {songName:"Sanam teri kasam" , filepath:"songs/Music4.mp3" , coverpath:"covers/cover4.jpeg"},
+    {songName:"Tera hone laga hoon" , filepath:"songs/Music5.mp3" , coverpath:"covers/cover5.jpeg"}
 ]
 
 
