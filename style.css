@@ -504,3 +504,21 @@ nav ul li:hover:not(.brand)::after {
       text-shadow: 0 0 5px #1db954, 0 0 10px #1db954;
     }
   }
+  .container {
+    min-height: 70vh;
+    padding: 32px;
+    margin: 24px auto;
+    width: 95%;
+    max-width: 1200px;
+    background: linear-gradient(135deg, #1e1e1e 0%, #121212 100%);
+    border-radius: 16px;
+    position: relative;
+    overflow-y: auto; /* Make the container scrollable */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    padding-bottom: 120px; /* Add extra space to ensure songs are visible when scrolling */
+  }
+  
+  
+  
+  
